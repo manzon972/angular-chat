@@ -1,0 +1,7 @@
+<div class="card grey lighten-3 chat-room" id="chatRoom">
+  <div class="card-body">
+    <div class="chat-message">
+      <app-message-item *ngFor="let msg of messages" [message]="msg"></app-message-item>
+    </div>
+  </div>
+</div>

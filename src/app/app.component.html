@@ -1,1 +1,8 @@
-<h1>The beginning</h1>
+<div class="card grey lighten-3 chat-room">
+  <div class="card-body">
+    <div class="container">
+      <app-message-list [messages]="messages"></app-message-list>
+      <app-message-form [message]="message" [messages]="messages"></app-message-form>
+    </div>
+  </div>
+</div>
